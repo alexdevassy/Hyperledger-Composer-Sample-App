@@ -14,3 +14,5 @@ Glossary
 Composer Playground: To incorporate the various abstractions in the blocks using hyperledger may become a tedious job for beginners, so this is where playground comes to the rescue. Composer playground is an extensive, open development tool set and framework which makes it easier for developers to develop blockchain applications.
 
 Files: A project hosted in Composer playground, requires three files, namely Model, Script and Access Control. The model file as the name suggests, is present to define the domain model for the blockchain network, in here we define things like, participants, assets, transactions, events, concepts. Script file basically is written to describe the business logic. Access Control is present to enlist the permissions for different users.
+
+The entire documentation of this tutorial can be found at https://medium.com/@alex.cs1/hyperledger-from-scratch-50a2535e26b6
