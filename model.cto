@@ -1,0 +1,21 @@
+    /**
+     * New model file
+     */
+
+    namespace org.acme.model
+    asset account identified by accntId {
+     o String accntId
+     o Double balance
+    }
+
+    participant user identified by userId {
+     o String userId
+     o String firstName
+     --> account acnt
+    }
+
+    transaction SampleTransaction {
+     o Double amount
+     --> account fromaccnt
+     --> account toaccnt
+    } 
